@@ -1,0 +1,5 @@
+local Humanoid = script.Parent:WaitForChild("Humanoid")
+Humanoid.Died:Connect(function()
+	wait(1)
+	script.Parent:Destroy()
+end)
